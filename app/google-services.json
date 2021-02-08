@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335075681563",
+    "project_id": "chat-app-f2225",
+    "storage_bucket": "chat-app-f2225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335075681563:android:1f136b6e820395135adfbe",
+        "android_client_info": {
+          "package_name": "com.zenrabanes.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335075681563-o1e3pd7t4vpp29arpq92p6iq1oid8kon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy1yU9opt7_gzcicI0MxJHEA99QNrcUDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335075681563-o1e3pd7t4vpp29arpq92p6iq1oid8kon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
