@@ -25,12 +25,12 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         btnSignUp.setOnClickListener(this);
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-//
-//        if (firebaseUser != null) {
-//            Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
-//            startActivity(intent);
-//            finish();
-//        }
+
+        if (firebaseUser != null) {
+            Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
     }
 
     @Override

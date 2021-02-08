@@ -95,32 +95,6 @@ public class MainActivity extends AppCompatActivity {
         firebaseDatabase.child("chats").push().setValue(hashMap);
     }
 
-//    private void readMessage(String msg) {
-//        mChat = new ArrayList<>();
-//
-//        reference = FirebaseDatabase.getInstance();
-//        DatabaseReference myRef = reference.getReference("chats");
-//        myRef.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                mChat.clear();
-//                for (DataSnapshot snapshot1 : snapshot.getChildren()) {
-//                    Chat chat = snapshot1.getValue(Chat.class);
-//                    if (chat.getMessage().equals(msg)) {
-//                        mChat.add(chat);
-//                    }
-//                }
-//                messageAdapter = new MessageAdapter(MainActivity.this, mChat);
-//                recyclerView.setAdapter(messageAdapter);
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
-//    }
-
     private void getMessage() {
 
         DatabaseReference databaseReference = reference.getReference();
